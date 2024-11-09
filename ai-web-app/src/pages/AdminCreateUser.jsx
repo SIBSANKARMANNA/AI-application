@@ -12,7 +12,7 @@ const AdminCreateUser = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/admin/create', { name, email, password, role }, {
+      const response = await axios.post('https://ai-application-5lad.onrender.com/api/admin/create', { name, email, password, role }, {
         headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },
       });
       alert(response.data.message);
