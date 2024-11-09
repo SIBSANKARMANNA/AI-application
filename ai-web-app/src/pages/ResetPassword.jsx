@@ -11,7 +11,7 @@ const ResetPassword = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/user/reset-password', { email, newPassword });
+      const response = await axios.post('https://ai-application-5lad.onrender.com/api/user/reset-password', { email, newPassword });
       setMessage(response.data.message);
     } catch (error) {
       setMessage(error.response.data.message || 'Error resetting password');
