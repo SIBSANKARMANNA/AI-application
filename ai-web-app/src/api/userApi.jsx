@@ -3,7 +3,7 @@ import axios from 'axios';
 // Get user profile information
 export const getUserProfile = async (token) => {
   try {
-    const response = await axios.get(`http://localhost:5000/api/user/profile`, {
+    const response = await axios.get(`https://ai-application-5lad.onrender.com/api/user/profile`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -18,7 +18,7 @@ export const getUserProfile = async (token) => {
 // Update user profile information
 export const updateUserProfile = async (userData, token) => {
   try {
-    const response = await axios.put(`http://localhost:5000/api/user/profile`, userData, {
+    const response = await axios.put(`https://ai-application-5lad.onrender.com/api/user/profile`, userData, {
       headers: {
         Authorization: `Bearer ${token}`,
         'Content-Type': 'multipart/form-data',
