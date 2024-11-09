@@ -7,7 +7,7 @@ import axios from 'axios';
 // Register a new user
 export const registerUser = async (userData) => {
   try {
-    const response = await axios.post(`http://localhost:5000/api/auth/register`, userData);
+    const response = await axios.post(`https://ai-application-5lad.onrender.com/api/auth/register`, userData);
     return response.data;
   } catch (error) {
     console.error("Error during user registration:", error);
@@ -18,7 +18,7 @@ export const registerUser = async (userData) => {
 // Login an existing user
 export const loginUser = async (userData) => {
   try {
-    const response = await axios.post(`http://localhost:5000/api/auth/login`, userData);
+    const response = await axios.post(`https://ai-application-5lad.onrender.com/api/auth/login`, userData);
     // console.log('response',response.data);
     return response.data;
   } catch (error) {
