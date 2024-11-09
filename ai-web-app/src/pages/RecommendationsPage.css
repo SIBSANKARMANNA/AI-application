@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .recommendations-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .recommendations-page nav,
+  .recommendations-page footer {
+    /* background-color: #002c71;
+    color: #fff; */
+    padding: 1rem;
+  }
+  
+  .recommendations-page main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-color: #dee4e2;
+  }
+  
+  /* Recommendations container styling */
+  .recommendations-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #f9fbfe;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .recommendations-container:hover {
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Header styling */
+  .recommendations-page h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #002c71;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .recommendations-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .recommendations-form label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .recommendations-form input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .recommendations-form input:focus {
+    border-color: #002c71;
+  }
+  
+  .recommendations-form button {
+    background-color: #002c71;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .recommendations-form button:hover {
+    background-color: #001a49;
+  }
+  
+  /* Recommendations list styling */
+  .recommendations-list {
+    margin-top: 2rem;
+  }
+  
+  .recommendations-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recommendations-list li {
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #e1e5e9;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .recommendations-list li:hover {
+    background-color: #f1f4f8;
+  }
+  
+  /* Footer styling */
+  .recommendations-page footer {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .recommendations-page main {
+      padding: 1rem;
+    }
+  
+    .recommendations-page h2 {
+      font-size: 1.8rem;
+    }
+  }
+  

@@ -1,0 +1,80 @@
+/* AdminCreateUser.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .admin-create-user {
+    max-width: 400px;
+    width: 60%;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .admin-create-user h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .admin-create-user form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .admin-create-user input[type="text"],
+  .admin-create-user input[type="email"],
+  .admin-create-user input[type="password"],
+  .admin-create-user select {
+    width: 60%;
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+    background-color: #fafafa;
+  }
+  
+  .admin-create-user input[type="text"]:focus,
+  .admin-create-user input[type="email"]:focus,
+  .admin-create-user input[type="password"]:focus,
+  .admin-create-user select:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  .admin-create-user button[type="submit"] {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .admin-create-user button[type="submit"]:hover {
+    background-color: #357abd;
+  }
+  
+  .admin-create-user button[type="submit"]:active {
+    background-color: #3069a2;
+  }
+  
+  .admin-create-user select {
+    cursor: pointer;
+  }
+  

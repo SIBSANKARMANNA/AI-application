@@ -1,0 +1,18 @@
+/* Footer.css */
+
+.footer {
+    background-color: #4375aa; /* Dark background color */
+    color: rgb(244, 238, 238); /* White text color for contrast */
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+    color: white;
+  }
+  

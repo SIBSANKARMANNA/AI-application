@@ -1,0 +1,80 @@
+.sentiment-analysis-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: linear-gradient(135deg, #f8f9fb, #e2e8f0); */
+    color: #333;
+  }
+  
+  .sentiment-analysis-page main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    background-color:#dee4e2;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-top: 30px;
+  }
+  
+  .sentiment-analysis-page h1,
+  .sentiment-analysis-page h2 {
+    color: #1a202c;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 2.5em;
+  }
+  
+
+  .analyze-sentiment {
+    background: #edf2f7;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .analyze-sentiment h3 {
+    color: #2d3748;
+    font-size: 1.8em;
+    margin-bottom: 16px;
+  }
+  
+  .analyze-sentiment button {
+    background-color: #3182ce;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .analyze-sentiment button:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .analyze-sentiment input,
+  .analyze-sentiment textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .analyze-sentiment textarea {
+    height: 150px;
+    resize: vertical;
+  }
+ 

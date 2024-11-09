@@ -1,0 +1,20 @@
+
+
+.admin-dashboard-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 101vh;
+    /* background-color: #f4f6f9; */
+    /* margin-top: 200px; */
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .admin-dashboard-page main {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
