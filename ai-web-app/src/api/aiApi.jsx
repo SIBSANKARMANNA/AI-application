@@ -8,7 +8,7 @@ export const getRecommendations = async (userPreferences) => {
   try {
     const token = localStorage.getItem('token'); // assuming token is stored in local storage
     const response = await axios.post(
-      `http://localhost:5000/api/ai/recommendations`,
+      `https://ai-application-5lad.onrender.com/api/ai/recommendations`,
       userPreferences,
       {
         headers: {
@@ -29,7 +29,7 @@ export const analyzeSentiment = async (text) => {
   try {
     const token = localStorage.getItem('token');
     const response = await axios.post(
-      `http://localhost:5000/api/ai/sentiment`,
+      `https://ai-application-5lad.onrender.com/api/ai/sentiment`,
       { text },
       {
         headers: {
